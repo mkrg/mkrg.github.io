@@ -4,5 +4,4 @@
 
 layout: default
 ---
-# Hello!
 Welcome to my workspace.
