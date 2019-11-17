@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "My first post!"
-date:   2019-11-16
+date:   2019-11-16 20:00
 categories: misc
 ---
 **So, this is my first post here on this blog.**  
