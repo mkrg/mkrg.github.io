@@ -22,16 +22,20 @@ title: Malin's workspace
 email: me223wh@student.lnu.se
 description: >- # this means to ignore newlines until "baseurl:"
   This is a wee space for my uni assignments in web programming.
-  (Before you ask - no, wee as in 'small')
+  (Before you ask - no, wee as in scottish for 'small')
 baseurl: "" # the subpath of your site, e.g. /blog
 url: localhost:4000 # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  mkrg
 author: Malin Engström
+type: website
+image: https://cdn.pixabay.com/photo/2016/03/09/09/59/laptop-computer-1245981_960_720.jpg
+image_alt: Picture of laptop
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 # Disqus Comments
 disqus:
