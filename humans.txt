@@ -1,0 +1,14 @@
+/* TEAM */
+Name:       Malin Engström
+Email:      me223wh@student.lnu.se
+Site:       https://github.com/mkrg
+Location:   Inverurie, Scotland
+
+/* THANKS */
+Name:        Teachers at LNU
+
+* SITE */
+Last update:  2019/11/17
+Standards:    HTML5, CSS3
+Components:   Jekyll, Sass, Minima
+Software:     Visual Studio Code, Git
