@@ -1,4 +1,5 @@
 @charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|EB+Garamond&display=swap');
 
 // Define defaults for each variable.
 
@@ -7,12 +8,19 @@ $base-font-size:   16px !default;
 $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
 $base-line-height: 1.5 !default;
+$large-font-size: $base-font-size * 2 !default;
+$abril:           'Abril Fatface', cursive;
+$eb:              'EB Garamond', serif;
+
+$navtext: lowercase !default;
 
 $spacing-unit:     30px !default;
 
 $text-color:       #111 !default;
-$background-color: #fff9f9 !default;
-$brand-color:      #2a7ae2 !default;
+$orange:           #F7B32B !default;
+$background-color: #fafafa !default;
+$brand-color:      #74CCC9 !default;
+$bars:             #FFFF !default;
 
 $grey-color:       #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
@@ -21,10 +29,10 @@ $grey-color-dark:  darken($grey-color, 25%) !default;
 $table-text-align: left !default;
 
 // Width of the content area
-$content-width:    800px !default;
+$content-width:    960px !default;
 
 $on-palm:          600px !default;
-$on-laptop:        800px !default;
+$on-laptop:        960px !default;
 
 // Use media queries like this:
 // @include media-query($on-palm) {
@@ -41,6 +49,12 @@ $on-laptop:        800px !default;
 
 @mixin relative-font-size($ratio) {
   font-size: $base-font-size * $ratio;
+}
+
+@mixin headers($ratio) {
+  @include relative-font-size($ratio);
+  font-weight: lighter;
+  letter-spacing: 1px;
 }
 
 // Import partials.
