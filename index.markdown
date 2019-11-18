@@ -4,5 +4,4 @@
 
 layout: page
 ---
-## Hi!
-Welcome to my workspace.
+**Hi!** Welcome to my workspace.
