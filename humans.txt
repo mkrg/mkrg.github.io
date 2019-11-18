@@ -8,7 +8,7 @@ Location:   Inverurie, Scotland
 Name:        Teachers at LNU
 
 * SITE */
-Last update:  2019/11/17
+Last update:  2019/11/19
 Standards:    HTML5, CSS3
 Components:   Jekyll, Sass, Minima
 Software:     Visual Studio Code, Git
