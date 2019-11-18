@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Assignment 1 questions"
+title:  "Assignment one"
 date:   2019-11-18
 categories: assignments
 ---
